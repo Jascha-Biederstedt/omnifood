@@ -1,0 +1,120 @@
+/* ------------------------------- */
+/* TABLET LANDSCAPE                */
+/* ------------------------------- */
+
+@media only screen and (max-width: 1200px) {
+
+    html {
+        font-size: 18px;
+    }
+    
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .icon-small {
+        margin: 0 8px;
+    }
+
+    .steps-box:last-child {
+        margin-top: 50px;
+    }
+
+}
+
+/* ------------------------------- */
+/* TABLET PORTRAIT                 */
+/* ------------------------------- */
+
+@media only screen and (max-width: 1023px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        width: 85%;
+    }
+
+    .icon-small {
+        margin: 0 1px 0 0;
+    }
+
+    .steps-box:last-child {
+        margin-top: 40px;
+    }
+
+    .works-step div {
+        padding: 4px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .works-step {
+        margin-bottom: 30px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 55px;
+    }
+
+    .btn-app img {
+        height: 40px;
+    }
+
+    .city-feature {
+        font-size: 98%;
+    }
+
+    .plan-box {
+        width: 100%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .plan-price-meal {
+        font-size: 90%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    footer {
+        padding: 25px;
+        font-size: 100%;
+    }
+
+    .footer-nav li,
+    .social-links li {
+        margin-right: 12px;
+    }
+
+}
+
+/* ------------------------------- */
+/* SMARTPHONE LANDSCAPE            */
+/* ------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/* ------------------------------- */
+/* SMARTPHONE PORTRAIT             */
+/* ------------------------------- */
+
+@media only screen and (max-width: 480px) {
+
+}
