@@ -107,6 +107,11 @@ h3 {
     margin: 0 10px 0 20px;
 }
 
+.icon-menu {
+    font-size: 200%;
+    color: #fff;
+}
+
 /* ----- LINKS ----- */
 
 a:link,
@@ -228,6 +233,15 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+/* ----- MOBILE NAV ----- */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 25px;
+    cursor: pointer;
+    display: none;
 }
 
 /* ----- STICKY NAV ----- */

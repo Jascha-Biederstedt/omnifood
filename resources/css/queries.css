@@ -13,6 +13,10 @@
         padding: 0 2%;
     }
 
+    .logo {
+        height: 80px;
+    }
+
     .row {
         padding: 0 2%;
     }
@@ -122,6 +126,10 @@
         padding: 0 4%;
     }
 
+    .logo {
+        height: 60px;
+    }
+
     .col {
         width: 100%;
         margin: 0 0 4% 0;
@@ -135,14 +143,45 @@
         font-size: 160%;
     }
 
-    .logo {
-        height: 80px;
-    }
-
     .main-nav {
         display: none;
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
     }
 
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding-bottom: 10px;
+    }
+
+    .sticky .icon-menu {
+        color: #555;
+    }
+
+    .sticky .mobile-nav-icon {
+        margin-top: 15px;
+    }
+    
     .long-copy,
     .box p {
         text-align: left;
@@ -258,10 +297,6 @@
 
     section {
         padding: 25px 0;
-    }
-
-    .logo {
-        height: 60px;
     }
 
     .long-copy,
