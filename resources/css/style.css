@@ -610,9 +610,9 @@ footer ul {
 .js--wp-2.animate__animated.animate__fadeInUp,
 .js--wp-3.animate__animated.animate__fadeIn {
     opacity: 1;
-    --animate-duration: 2s;
+    --animate-duration: 1s;
 }
 
 .js--wp-3.animate__animated.animate__pulse {
-    --animate-duration: 2s;
+    --animate-duration: 1s;
 }
